@@ -8,28 +8,50 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 50px;
-            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
         }
-        h1 {
-            color: #4CAF50;
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+        header img {
+            max-width: 200px;
         }
         nav {
-            margin-bottom: 20px;
+            background-color: #4CAF50;
+            padding: 10px;
         }
         nav a {
-            margin: 0 10px;
+            margin: 0 15px;
             text-decoration: none;
-            color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
         }
     </style>
 </head>
 <body>
+    <header>
+        <img src="logo.png" alt="NashFuel Logo">
+    </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
     </nav>
-    <h1>Welcome to the Quick Test Website</h1>
-    <p>This is a simple test to demonstrate creating a website quickly.</p>
+    <div class="container">
+        <h1>Welcome to the Quick Test Website</h1>
+        <p>This is a simple test to demonstrate creating a website quickly.</p>
+    </div>
 </body>
 </html>
