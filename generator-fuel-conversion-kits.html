@@ -35,13 +35,18 @@
         h1 {
             color: #333;
         }
+        .brands {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
         .brand {
-            margin: 20px 0;
             text-align: center;
+            margin: 20px;
         }
         .brand img {
             max-width: 150px;
-            margin-bottom: 10px;
             display: block;
             margin: 0 auto;
         }
@@ -69,13 +74,26 @@
     <div class="container">
         <h1>Generator Fuel Conversion Kits</h1>
         <p>Choose your generator brand below:</p>
-        <div class="brand">
-            <a href="generac.html">
-                <img src="Generac GP8000E 8000W 10000W Generator.webp" alt="Generac">
-                <h2>Generac</h2>
-            </a>
+        <div class="brands">
+            <div class="brand">
+                <a href="generac.html">
+                    <img src="Generac GP8000E 8000W 10000W Generator.webp" alt="Generac">
+                    <h2>Generac</h2>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="honda.html">
+                    <img src="Honda.webp" alt="Honda">
+                    <h2>Honda</h2>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="champion.html">
+                    <img src="Champion.jpg" alt="Champion">
+                    <h2>Champion</h2>
+                </a>
+            </div>
         </div>
-        <!-- Add more brands as needed -->
     </div>
 </body>
 </html>
